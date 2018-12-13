@@ -1,0 +1,9 @@
+$primary-color: red;
+
+div{
+  color: $primary-color;  
+  span{
+    color: blue;
+  }
+}
+
