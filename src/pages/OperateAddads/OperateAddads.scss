@@ -1,0 +1,70 @@
+.OperateAddads{
+    
+    font-size: 12px !important;
+    color:#999;
+    width: 100%;
+    display: inline;
+//  height: 500px;
+    background: red;
+    .title{
+    height: 40px;
+    line-height: 40px;
+    width: 96%;
+    padding: 0 2%;
+    background: #ccc;
+    display: flex;
+    justify-content: space-between;
+        
+    }
+    .content{
+//          
+            margin-top: 18px;
+            width: 96%;
+            padding: 0 2%;
+           .outInfo{
+               background: white !important;
+               border: 1px solid #ccc;
+               width: 100%;
+               .outInfotitle{
+                   display: flex;
+    justify-content: space-between;
+        
+                   background: #F3F3F3;
+                   height: 50px;
+                   line-height: 50px;
+                   width: 96%;
+                   padding: 0 2%;
+                   border-bottom:1px solid #ccc ;
+               }
+               .outInfobottom{
+                   height: 1000px;
+                   width: 100%;
+//                 background: red;
+                   position: relative;
+                   top: 0;
+                   left: 0;
+                   .main{
+                       font-size: 12px !important;
+                       color: #666666;
+                       position: absolute;
+                       top: 50%;
+                       left: 50%;
+                       text-align:left;
+                        -webkit-transform: translate(-50%, -50%);
+                        -moz-transform: translate(-50%, -50%);
+                        transform: translate(-50%, -50%);
+                   }
+                   button{
+                       background: #1ABC9C;
+                       border: none;
+                       width: 80px;
+                       height: 30px;
+                       border-radius: 5px;
+                       color: white;
+                       margin-top: 20px;
+                   }
+                   
+               }
+           }
+    }
+}

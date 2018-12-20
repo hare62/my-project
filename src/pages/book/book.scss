@@ -1,0 +1,37 @@
+a{
+    text-decoration: none;
+    list-style: none;
+}
+.book{
+    overflow: hidden;
+    width: 90%;
+    margin: 0 5%;
+    .list{
+        
+        width: 10%;
+        float: left;
+        display: inline-block;
+//      height: 200px;
+        background: #EAEDF1;
+        ul{
+            font-size: 14px;
+            border-right: 1px solid #ccc ;
+            border-left: 1px solid #ccc ;
+            li{
+                height: 40px;
+                line-height: 40px;
+                text-align: left;
+                text-indent: 5px;
+                list-style: inside;
+                border-bottom: 1px solid #ccc;
+                a{
+                    color: #666 !important;
+                }
+            }
+            .first{
+               text-align: center;
+               list-style: none; 
+            }
+        }
+    }
+}

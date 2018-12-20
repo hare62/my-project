@@ -1,0 +1,126 @@
+@mixin mediue {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.goodsbrandmanagement {
+    font-size: 12px;
+    color: #999;
+    width: 100%;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    .title {
+        position: relative;
+        height: 40px;
+        line-height: 40px;
+        width: 96%;
+        padding: 0 2%;
+        background: #F3F3F3;
+        display: flex;
+        //纯CSS实现垂直居中的几种方法
+        justify-content: flex-start;
+        flex-direction: row;
+        align-items: center;
+        #box {
+            display: inline-block;
+            width: 5px;
+            height: 20px;
+            background: #1ABC9C;
+            margin-right: 5px;
+        }
+        .img {
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            width: 60px;
+            position: absolute;
+            top: 5px;
+            right: 20px;
+            color: #ccc;
+            border: 1px solid #ccc;
+        }
+    }
+    .content {
+        width: 96%;
+        padding: 0 2%;
+      
+        .center {
+            width: 100%;
+            height: 113px;
+            margin: 20px 0;
+            //                  background: oldlace;
+            ul {
+                border: 1px solid #ccc;
+                box-sizing: border-box;
+                li {
+                    padding: 0 2%;
+                    border-bottom: 1px solid #ccc;
+                    &:nth-child(1) {
+                        height: 50px;
+                        line-height: 50px;
+                        background: #F3F3F3;
+                    }
+                    &:nth-child(2) {
+                        height: 60px;
+                        line-height: 60px;
+                        display: flex;
+                        justify-content: space-between;
+                        text-align: center;
+                        font-size: 14px;
+                        div {
+                            margin-right: 30px;
+                            span {
+                                margin-right: 20px;
+                            }
+                            input {
+                                height: 30px;
+                                text-indent: 10px;
+                            }
+                        }
+                    }
+                    .left {
+                        float: left;
+                    }
+                    .right {
+                        float: right;
+                        .border1 {
+                            font-size: 0;
+                            height: 30px;
+                            line-height: 30px;
+                            margin: 0;
+                            padding-left: 5px;
+                            font-size: 14px;
+                            border: 1px solid #ccc;
+                            display: inline-block;
+                            background: white;
+                        }
+                        .border2 {
+                            height: 30px;
+                            line-height: 30px;
+                            font-size: 14px;
+                            border: 1px solid #ccc;
+                            display: inline-block;
+                            background: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .bottom {
+        .title{
+        border: 1px solid #ebeef5;
+        border-bottom: 0;
+        box-sizing: border-box;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+}
+    }
+}

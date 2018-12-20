@@ -1,0 +1,116 @@
+@mixin mediue {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.goodslist {
+    width: 100%;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    .title {
+        position: relative;
+        height: 40px;
+        line-height: 40px;
+        width: 96%;
+        padding: 0 2%;
+        background: #F3F3F3;
+        display: flex;
+        //纯CSS实现垂直居中的几种方法
+        justify-content: flex-start;
+        flex-direction: row;
+        align-items: center;
+        #box {
+            display: inline-block;
+            width: 5px;
+            height: 20px;
+            background: #1ABC9C;
+            margin-right: 5px;
+        }
+        .img {
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            width: 60px;
+            position: absolute;
+            top: 5px;
+            right: 20px;
+            color: #ccc;
+            border: 1px solid #ccc;
+        }
+    }
+    .content {
+        width: 96%;
+        padding: 0 2%;
+        .top {
+            height: 130px;
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            .el-steps {
+                width: 100%;
+                .el-step {
+                    .el-step__head {
+                        .el-step__icon.is-text {
+                            height: 60px !important;
+                            width: 60px;
+                        }
+                    }
+                }
+            }
+        }
+        .center {
+            width: 100%;
+            height: 800px;
+            //                  background: oldlace;
+            border: 1px solid #ccc;
+            overflow: hidden;
+            .primary {
+                position: relative;
+                float: left;
+                display: inline;
+                width: 20%;
+                height: 100%;
+                border-right: 1px solid #ccc;
+                .img {
+                    height: 50px;
+                    width: 100%;
+                    position: absolute;
+                    top: 20%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    background: url("../../assets/spaceicon.png") no-repeat 100% 100%;
+                    background-size: cover;
+                    display: flex;
+                    text-align: center;
+                    color: white;
+                    align-items: center;
+                    img {
+                        height: 30px;
+                        width: 30px;
+                        align-self: center;
+                    }
+                }
+            }
+            .secondry {
+                position: relative;
+                float: right;
+                display: inline;
+                width: 79.9%;
+                height: 100%;
+//              background: red;
+                .inner {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    width: 80%;
+                }
+            }
+        }
+    }
+}

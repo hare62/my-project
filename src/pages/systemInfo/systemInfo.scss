@@ -1,0 +1,82 @@
+.systemInfo{
+    width: 100%;
+    display: inline;
+//  height: 500px;
+    background: red;
+    .title{
+    height: 40px;
+    line-height: 40px;
+    width: 96%;
+    padding: 0 2%;
+    background: #ccc;
+        
+    }
+    .content{
+            margin-top: 18px;
+            width: 96%;
+            padding: 0 2%;
+           .outInfo{
+               border: 1px solid #ccc;
+               width: 100%;
+               .outInfotitle{
+                   padding-left: 2%;
+                   background: #F3F3F3;
+                   height: 50px;
+                   line-height: 50px;
+                   width: 98%;
+                   border-bottom:1px solid #ccc ;
+               }
+               .outInfobottom{
+//                 height: 500px;
+                   width: 96%;
+//                 background: red;
+                   padding: 2%;
+                        ul{ 
+            margin-top: 20px;
+            border: 1px solid #cccccc;
+            width: 100%;
+            .content_title{
+                width: 100%;
+                height: 40px;
+                line-height: 40px;
+                background:#F3F3F3;
+            }
+            li{
+                border-bottom: 1px solid #cccccc;
+                height:40px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap:nowrap;
+                justify-content: space-around;
+                text-align: left;
+                
+                span{
+                    border-right:1px solid #ccc;
+                    display: inline-block;
+                    width: 34.5%;
+                    height: 40px;
+                    line-height: 40px;
+                    box-sizing: border-box;
+                    &:nth-child(4){
+                        border-right:none;
+                    } 
+                    &:nth-child(2n+1){
+                        background:#FCFAF9;
+                        width: 15%;
+                        text-align: center;
+                    } 
+                    &:nth-child(2n){
+                        width: 35%;
+                        text-indent: 20px;
+                    }   
+                    
+                }
+                
+                
+            }
+
+        }
+               }
+           }
+    }
+}

@@ -1,0 +1,66 @@
+@mixin mediue {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.goodsclassify {
+    width: 100%;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    .title {
+        position: relative;
+        height: 40px;
+        line-height: 40px;
+        width: 96%;
+        padding: 0 2%;
+        background: #F3F3F3;
+        display: flex;
+        //纯CSS实现垂直居中的几种方法
+        justify-content: flex-start;
+        flex-direction: row;
+        align-items: center;
+        #box {
+            display: inline-block;
+            width: 5px;
+            height: 20px;
+            background: #1ABC9C;
+            margin-right: 5px;
+        }
+        .img {
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            width: 80px;
+            position: absolute;
+            top: 5px;
+            right: 20px;
+            color: #000;
+            border: 1px solid #ccc;
+            background: white;
+        }
+    }
+    .content {
+        width: 96%;
+        padding: 0 2%;
+    }
+    .bottom {
+        .title{
+        border: 1px solid #ebeef5;
+        margin-top: 40px;
+        border-bottom: 0;
+        box-sizing: border-box;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+}
+    }
+    .block{
+        margin-top: 20px;
+    }
+}

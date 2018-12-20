@@ -1,0 +1,72 @@
+.accountSettings{
+    width: 100%;
+    display: inline;
+//  height: 500px;
+    background: red;
+    .title{
+    height: 40px;
+    line-height: 40px;
+    width: 96%;
+    padding: 0 2%;
+    background: #ccc;
+        
+    }
+    .content{
+            margin-top: 18px;
+            width: 96%;
+            padding: 0 2%;
+           .outInfo{
+               border: 1px solid #ccc;
+               width: 100%;
+               .outInfotitle{
+                   
+                   background: #F3F3F3;
+                   height: 50px;
+                   line-height: 50px;
+                   width: 100%;
+                   border-bottom:1px solid #ccc ;
+               }
+               .outInfobottom{
+                   height: 500px;
+                   width: 100%;
+//                 background: red;
+                   position: relative;
+                   top: 0;
+                   left: 0;
+                   .main{
+                       position: absolute;
+                       top: 50%;
+                       left: 50%;
+                       text-align: center;
+                        -webkit-transform: translate(-50%, -50%);
+                        -moz-transform: translate(-50%, -50%);
+                        transform: translate(-50%, -50%);
+            div{
+                span{
+                    color: #F24844;
+                }
+                input{
+                        height: 40px;
+                        width: 250px;
+                        margin-top: 10px;
+                        background: #F2F2F2;
+                        border: 1px solid #ccc;
+                        border-radius: 2px;
+                        text-indent: 20px;
+                        font-size: 20px;
+                }
+            }
+                   }
+                   button{
+                       background: #1ABC9C;
+                       border: none;
+                       width: 80px;
+                       height: 30px;
+                       border-radius: 5px;
+                       color: white;
+                       margin-top: 20px;
+                   }
+               }
+           }
+    }
+}

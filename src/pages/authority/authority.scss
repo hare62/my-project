@@ -1,0 +1,42 @@
+a{
+    text-decoration: none;
+    list-style: none;
+}
+.authority{
+    overflow: hidden;
+    width: 90%;
+    margin: 0 5%;
+    .list{
+        width: 10%;
+        float: left;
+        display: inline-block;
+//     goods height: 200px;
+        background: #EAEDF1;
+        ul{
+//          border-right: 1px solid #cccccc;
+//          border-left: 1px solid #cccccc;
+            li{ 
+                border-bottom: 1px solid #cccccc;
+                height: 40px;
+                line-height: 40px;
+                text-align: left;
+                text-indent: 5px;
+                list-style: inside;
+                &:hover{
+                        color: #1ABC9C;
+                        background: white;
+                    }
+                a{
+                    color: #666 !important;
+                    
+                }
+                &:nth-child(1),&:nth-child(6){
+                    height: 50px;
+                    line-height: 50px;
+                    list-style: none;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
